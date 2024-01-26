@@ -1,0 +1,10 @@
+.sideMenu {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0;
+  gap: var(--gap-mini);
+}

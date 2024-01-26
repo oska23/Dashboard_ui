@@ -1,0 +1,129 @@
+.frameChild {
+  width: 56px;
+  position: relative;
+  border-radius: 50%;
+  height: 56px;
+  object-fit: cover;
+  z-index: 0;
+}
+.belloutlineIcon {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.groupChild {
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-firebrick);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+}
+.div,
+.ellipseGroup,
+.groupChild {
+  position: absolute;
+  top: 0;
+}
+.div {
+  left: 5px;
+  font-weight: 600;
+  display: inline-block;
+  width: 7px;
+  height: 13px;
+}
+.ellipseGroup {
+  left: 18px;
+  width: 18px;
+  height: 18px;
+}
+.belloutlineParent {
+  width: 36px;
+  position: absolute;
+  margin: 0 !important;
+  top: 9px;
+  left: 12px;
+  height: 35px;
+  z-index: 1;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.avatarChild {
+  width: 56px;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid var(--color-mediumslateblue-100);
+  box-sizing: border-box;
+  height: 56px;
+  z-index: 0;
+}
+.profileimglargeborderIcon {
+  width: 85.71%;
+  position: absolute;
+  margin: 0 !important;
+  height: 85.71%;
+  top: 7.14%;
+  right: 7.14%;
+  bottom: 7.14%;
+  left: 7.14%;
+  border-radius: var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-7xl);
+  z-index: 0;
+}
+.tasks {
+  margin: 0;
+  width: 90px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent,
+.tasksWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.tasksWrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: 9px;
+  left: 0;
+  z-index: 1;
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkslategray-200);
+}
+.frameParent {
+  align-self: stretch;
+  position: relative;
+  gap: var(--gap-559xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-open-sans);
+}

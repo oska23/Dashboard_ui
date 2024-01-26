@@ -1,0 +1,245 @@
+.groupIcon {
+  width: 162.6px;
+  position: relative;
+  height: 35.4px;
+  object-fit: cover;
+}
+.frameParent,
+.groupWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) 0 var(--padding-18xl) 40px;
+  gap: 46px;
+}
+.project {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.head,
+.projectWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.head {
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs);
+  color: var(--color-slategray);
+}
+.webScreensDesign {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.headParent,
+.webScreensDesignWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.webScreensDesignWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs);
+}
+.headParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xl);
+}
+.project1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.projectContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.div {
+  position: relative;
+  line-height: 22px;
+}
+.headGroup {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-8xl);
+}
+.head3,
+.headGroup,
+.hrsWrapper {
+  display: flex;
+  align-items: center;
+}
+.hrsWrapper {
+  width: 91px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.head3 {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-11xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-slategray);
+  font-family: var(--font-open-sans);
+}
+.tagAltoutlineIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.success {
+  position: relative;
+  line-height: 20px;
+}
+.tagsbadges,
+.tagsbadgesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tagsbadges {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-mintcream);
+  height: 24px;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+}
+.tagsbadgesWrapper {
+  padding: var(--padding-3xs);
+}
+.tagsbadges2 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: #fffcf3;
+  height: 24px;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  gap: var(--gap-8xs);
+}
+.tagsbadges2,
+.tagsbadges3,
+.tagsbadgesFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.tagsbadgesFrame {
+  width: 82px;
+  padding: var(--padding-3xs);
+  color: #da9e01;
+}
+.tagsbadges3 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: #e0ecff;
+  height: 24px;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  gap: var(--gap-8xs);
+}
+.headParent1,
+.tagsbadgesWrapper1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tagsbadgesWrapper1 {
+  width: 100px;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  color: #0061ff;
+}
+.headParent1 {
+  flex-direction: column;
+  gap: var(--gap-8xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-seagreen);
+  font-family: var(--font-inter);
+}
+.frameContainer,
+.tasksGrid,
+.tasksGridInner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameContainer {
+  flex: 1;
+  gap: 1px;
+}
+.tasksGrid,
+.tasksGridInner {
+  align-self: stretch;
+}
+.tasksGrid {
+  border-radius: 20px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 80px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  gap: 12px;
+}
+.frameGroup,
+.macbookAir1 {
+  display: flex;
+  gap: var(--gap-56xl);
+}
+.frameGroup {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 32px 55px 0 0;
+}
+.macbookAir1 {
+  width: 100%;
+  position: relative;
+  background-color: #fafcff;
+  height: 704px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-open-sans);
+}

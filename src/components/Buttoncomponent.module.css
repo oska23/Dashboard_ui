@@ -1,0 +1,41 @@
+.homeoutlineIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.home {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-open-sans);
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.homeWrapper,
+.homeoutlineParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.homeWrapper {
+  flex: 1;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.homeoutlineParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 186px;
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+}
+.homeoutlineParent:hover {
+  background: linear-gradient(#faf5f5, #faf5f5), #fff;
+}
